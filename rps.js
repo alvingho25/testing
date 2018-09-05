@@ -37,6 +37,7 @@ function random(){
 }
 
 var score = 0;
+
 for(var i = 0; i < 5; i++){
     playerSelection = prompt(`Round ${i+1} Choose rock or paper or scissors`).toLowerCase();
     computerSelection = random();
